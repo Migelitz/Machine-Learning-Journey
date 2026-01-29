@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 # === Importing the data ===
 
-data_file_path = "./insurance.csv"
+data_file_path = "./datasets/insurance.csv"
 medical_cost_data = pd.read_csv(data_file_path)
 
 # === Data Cleaning ===
