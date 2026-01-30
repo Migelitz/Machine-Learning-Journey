@@ -19,8 +19,8 @@ The model uses a **Decision Tree** to split data into branches. For example, it 
 
 ## 🚧 Challenges & Learnings
 * **Data Cleaning:** Learned to separate Features (`X`) from Targets (`y`).
-* **Categorical Data:** I initially excluded the `smoker` column because it was text ("yes"/"no"). In future versions, I plan to use One-Hot Encoding to include this, as smoking is a major factor in cost.
-* **Overfitting:** Currently, the model is tested on the same data it was trained on. The next step is to implement **Train/Test Split** to validate accuracy properly.
+* **Categorical Data:** I successfully included all possible related datas for the prices. Plus, able to convert smoker column yes or no into integer of 1 or 0  using dropna().
+* **Overfitting:** Validated the overfitting of my model with the use of test_train_split() and the mean_absolute_error().
 
 ## 📂 File Structure
 * `insurance_model.py`: The main Python script.
