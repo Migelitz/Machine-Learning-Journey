@@ -14,7 +14,7 @@ This repository is organized to separate data from logic, simulating a productio
 ## 🛠️ Tech Stack & Tools
 
 * **Languages:** Python (Primary)
-* **Libraries:** Pandas, Scikit-Learn
+* **Libraries:** Pandas, Scikit-Learn, Numpy, Matplotlib, Seaborn
 * **Environment:** VS Code
 
 ## 🗺️ Project Roadmap

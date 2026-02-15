@@ -9,7 +9,7 @@ This is my first machine learning project. The goal is to build a regression mod
 ## 📊 Data Distribution
 
 <img src="../../assets/age_vs_charge_figure.png" alt="" width="800">
-
+l
 **Detail:** The plot shows two clusters (smokers vs. non-smokers). Charges generally increase with age, and smokers tend to have higher costs at any given age.
 
 ## 🧠 The Model
