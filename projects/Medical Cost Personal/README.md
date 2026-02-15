@@ -6,6 +6,12 @@ This is my first machine learning project. The goal is to build a regression mod
 **Objective:** To master the fundamental workflow of Scikit-Learn:
 `Define` → `Fit` → `Predict` → `Evaluate` → `Optimize`
 
+## 📊 Data Distribution
+
+<img src="../../assets/age_vs_charge_figure.png" alt="" width="800">
+
+**Detail:** The plot shows two clusters (smokers vs. non-smokers). Charges generally increase with age, and smokers tend to have higher costs at any given age.
+
 ## 🧠 The Model
 * **Algorithm:** Decision Tree Regressor
 * **Library:** Scikit-Learn
