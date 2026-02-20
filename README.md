@@ -21,8 +21,8 @@ This repository is organized to separate data from logic, simulating a productio
 
 ### Phase 1: Supervised Learning (Regression)
 * [x] **01. Medical Insurance Cost Prediction**
-    * *Model:* Decision Tree Regressor
-    * *Goal:* Predict insurance charges based on Age, BMI, and Children.
-    * *Status:* Validating and improving model. 
+    * *Model:* Decision Tree Regressor and Random Forest Regressor
+    * *Goal:* Predict insurance charges based on Age, BMI, Children and Smoker.
+    * *Status:* Decision Tree and Random Forest Regressors implemented (Required Optimization)
 ---
 *Created by [Migelitz](https://github.com/Migelitz) - BS Computer Science Student*
