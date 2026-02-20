@@ -5,6 +5,20 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
+"""
+Project Objective: Predicting Medical Insurance Costs
+This project applies the core concepts I mastered in the Kaggle Intro to Machine Learning course to an independent dataset.
+
+1. Why start with a Decision Tree?
+   It serves as a strong baseline model. Building a single tree is an intuitive way to understand how the features (age, bmi, smoker status) split the data to predict medical charges.
+
+2. Why introduce a Random Forest Regressor?
+   My initial Decision Tree yielded a high Mean Absolute Error (MAE). To reduce this error, I implemented a Random Forest ensemble. By generating multiple trees and averaging their predictions, this model typically reduces variance and improves overall accuracy.
+
+3. Why is the Decision Tree currently outperforming the Random Forest?
+   I explicitly tuned the Decision Tree by writing a custom function to iterate through candidate values and find the optimal `max_leaf_nodes`. The Random Forest is currently running on default hyperparameters. This perfectly illustrates how a well-tuned simpler model can beat an untuned complex one!
+"""
+
 def Decision_Tree_Regressor_Model(train_X, train_y, val_X, val_y):
    
     # For easier identification of best max leaf node
