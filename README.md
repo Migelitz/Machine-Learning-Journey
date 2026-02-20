@@ -8,6 +8,7 @@ Welcome to my AI/ML engineering portfolio. This repository documents my progress
 
 This repository is organized to separate data from logic, simulating a production environment:
 
+* **`assets/`**: Folder storage for static resources.
 * **`datasets/`**: Central storage for all raw CSVs and datasets (may be reused across projects).
 * **`projects/`**: Individual projects, numbered chronologically to show growth.
 
