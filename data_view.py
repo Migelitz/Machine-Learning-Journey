@@ -9,4 +9,5 @@ data["smoker"] = data["smoker"].map({"yes": 1, "no": 0})
 sns.lmplot(data=data, x="age", y="charges", hue="smoker")
 
 plt.title("Linear Regression of Age vs. Medical Charges")
+plt.savefig("plot.png") # Save figure; fix error: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
 plt.show()
