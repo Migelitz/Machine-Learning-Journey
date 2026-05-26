@@ -17,6 +17,28 @@ This repository is organized to separate data from logic, simulating a productio
 * **Languages:** Python (Primary)
 * **Libraries:** Pandas, Scikit-Learn, Numpy, Matplotlib, Seaborn
 * **Environment:** VS Code
+ 
+## ⚙️ Setup
+
+To install the project's Python dependencies, create and activate a virtual environment then install from the provided requirements file.
+
+Linux / macOS:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Windows (PowerShell):
+
+```powershell
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+If you use a different Python executable, replace `python`/`python3` with the appropriate command.
 
 ## 🗺️ Project Roadmap
 
